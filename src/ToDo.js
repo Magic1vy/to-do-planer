@@ -1,12 +1,10 @@
 import { Component } from "react";
 import check from "./check.png";
-// import greenCheck from "./green-check.png";
 
 export class ToDo extends Component{
     state = {
         userInput: "",
         list: [],
-        // img: check
     }
 
     onChangeEvent (e){
